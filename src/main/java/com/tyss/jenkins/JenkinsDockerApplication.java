@@ -17,5 +17,11 @@ public class JenkinsDockerApplication {
 	public String getMessage() {
 		return "Welcome to Jenkins Dockers";
 	}
+	
+	@GetMapping("/check")
+	public String check() {
+		return "Checked";
+	}
+
 
 }
