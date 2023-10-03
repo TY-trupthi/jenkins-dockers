@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>jenkins-docker.jar</finalName>
 	</build>
 
 </project>
