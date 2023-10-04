@@ -20,7 +20,7 @@ public class JenkinsDockerApplication {
 	
 	@GetMapping("/check")
 	public String check() {
-		return "Checked Successfully";
+		return "Checked Successfully m";
 	}
 
 
